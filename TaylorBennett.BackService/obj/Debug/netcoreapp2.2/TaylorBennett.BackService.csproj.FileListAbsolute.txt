@@ -1,0 +1,14 @@
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennett.BackService.deps.json
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennett.BackService.runtimeconfig.json
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennett.BackService.runtimeconfig.dev.json
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennett.BackService.dll
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennett.BackService.pdb
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.csprojAssemblyReference.cache
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.csproj.CoreCompileInputs.cache
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.RazorAssemblyInfo.cache
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.RazorAssemblyInfo.cs
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.AssemblyInfoInputs.cache
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.AssemblyInfo.cs
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.RazorTargetAssemblyInfo.cache
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.dll
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.pdb
