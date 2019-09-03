@@ -12077,30 +12077,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taylor\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/taylorbennett/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj",
+      "projectUniqueName": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj",
       "projectName": "TaylorBennett.FrontEnd",
-      "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj",
-      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\obj\\",
+      "projectPath": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj",
+      "packagesPath": "/Users/taylorbennett/.nuget/packages/",
+      "outputPath": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/taylorbennett/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
