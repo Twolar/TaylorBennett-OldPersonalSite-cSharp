@@ -45,7 +45,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color: #D3C4BE;
+    background-color: #D3C4BE !important;
 }
 .footer {
     position: absolute;
@@ -60,9 +60,9 @@ body {
 .text-muted {
   color: #080705 !important;
 }
-
+/* FAFAFF */
 
 /* NAV BAR */
 .bg-white {
-  background-color:  #FAFAFF;
+  background-color:  #FAFAFF !important;
 }
