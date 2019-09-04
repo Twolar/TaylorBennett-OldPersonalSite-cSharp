@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj": {}
+    "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj": {}
   },
   "projects": {
-    "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj": {
+    "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj",
+        "projectUniqueName": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj",
         "projectName": "TaylorBennett.FrontEnd",
-        "projectPath": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/TaylorBennett.FrontEnd.csproj",
-        "packagesPath": "/Users/taylorbennett/.nuget/packages/",
-        "outputPath": "/Users/taylorbennett/dev/TaylorBennett/TaylorBennett.FrontEnd/obj/",
+        "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\TaylorBennett.FrontEnd.csproj",
+        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/taylorbennett/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
