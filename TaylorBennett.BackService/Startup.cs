@@ -6,10 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
+using TaylorBennett.BackService.Models;
 
 namespace TaylorBennett.BackService
 {
@@ -25,6 +28,15 @@ namespace TaylorBennett.BackService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlite("Data source = TaylorBennettWebsite.db");
+            });
+
+            services.AddSwaggerGen(opt =>
+                 opt.SwaggerDoc("v1", new Info { Title = "TaylorBennettWebsite API", Version = "v1" })
+            );  
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -41,8 +53,20 @@ namespace TaylorBennett.BackService
                 app.UseHsts();
             }
 
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options =>
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "TaylorBennettWebsite API v1")
+            );
+
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.Run(context =>
+            {
+                context.Response.Redirect("/swagger");
+                return Task.CompletedTask;
+            });
         }
     }
 }
