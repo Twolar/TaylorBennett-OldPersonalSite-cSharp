@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorBennett.BackService",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorBennett.FrontEnd", "TaylorBennett.FrontEnd\TaylorBennett.FrontEnd.csproj", "{BE798200-D8FB-40E5-AA43-41D15FBE8422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorBennettDTO", "TaylorBennettDTO\TaylorBennettDTO.csproj", "{C5D9A07A-653F-4FA8-B2B9-DA0F5E4E3630}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE798200-D8FB-40E5-AA43-41D15FBE8422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE798200-D8FB-40E5-AA43-41D15FBE8422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE798200-D8FB-40E5-AA43-41D15FBE8422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D9A07A-653F-4FA8-B2B9-DA0F5E4E3630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D9A07A-653F-4FA8-B2B9-DA0F5E4E3630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D9A07A-653F-4FA8-B2B9-DA0F5E4E3630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D9A07A-653F-4FA8-B2B9-DA0F5E4E3630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

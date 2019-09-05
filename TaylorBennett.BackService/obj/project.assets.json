@@ -4936,6 +4936,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "TaylorBennettDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/TaylorBennettDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaylorBennettDTO.dll": {}
+        }
       }
     }
   },
@@ -13374,6 +13387,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "TaylorBennettDTO/1.0.0": {
+      "type": "project",
+      "path": "../TaylorBennettDTO/TaylorBennettDTO.csproj",
+      "msbuildProject": "../TaylorBennettDTO/TaylorBennettDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13384,7 +13402,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 2.2.6",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
-      "Swashbuckle.AspNetCore >= 4.0.1"
+      "Swashbuckle.AspNetCore >= 4.0.1",
+      "TaylorBennettDTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13416,7 +13435,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
+              "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -12,3 +12,6 @@ C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBen
 C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.RazorTargetAssemblyInfo.cache
 C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.dll
 C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.pdb
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennettDTO.dll
+C:\Dev\TaylorBennett\TaylorBennett.BackService\bin\Debug\netcoreapp2.2\TaylorBennettDTO.pdb
+C:\Dev\TaylorBennett\TaylorBennett.BackService\obj\Debug\netcoreapp2.2\TaylorBennett.BackService.csproj.CopyComplete
