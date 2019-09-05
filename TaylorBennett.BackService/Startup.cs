@@ -35,7 +35,12 @@ namespace TaylorBennett.BackService
 
             services.AddSwaggerGen(opt =>
                  opt.SwaggerDoc("v1", new Info { Title = "TaylorBennettWebsite API", Version = "v1" })
-            );  
+            );
+
+            services.ConfigureSwaggerGen(opt =>
+            {
+                opt.CustomSchemaIds(x => x.FullName);
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
