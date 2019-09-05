@@ -4438,6 +4438,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "TaylorBennettDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/TaylorBennettDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaylorBennettDTO.dll": {}
+        }
       }
     }
   },
@@ -12067,13 +12080,19 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "TaylorBennettDTO/1.0.0": {
+      "type": "project",
+      "path": "../TaylorBennettDTO/TaylorBennettDTO.csproj",
+      "msbuildProject": "../TaylorBennettDTO/TaylorBennettDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "TaylorBennettDTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12105,7 +12124,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
+              "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

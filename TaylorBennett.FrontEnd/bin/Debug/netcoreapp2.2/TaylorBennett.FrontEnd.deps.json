@@ -26,13 +26,25 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "TaylorBennettDTO": "1.0.0"
         },
         "runtime": {
           "TaylorBennett.FrontEnd.dll": {}
         },
         "compile": {
           "TaylorBennett.FrontEnd.dll": {}
+        }
+      },
+      "TaylorBennettDTO/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "TaylorBennettDTO.dll": {}
+        },
+        "compile": {
+          "TaylorBennettDTO.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3233,6 +3245,11 @@
   },
   "libraries": {
     "TaylorBennett.FrontEnd/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaylorBennettDTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

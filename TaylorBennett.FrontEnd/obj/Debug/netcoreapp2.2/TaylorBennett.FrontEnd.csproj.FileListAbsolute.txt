@@ -62,3 +62,5 @@ C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\TaylorBennet
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\TaylorBennett.FrontEnd.RazorTargetAssemblyInfo.cs
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\TaylorBennett.FrontEnd.Views.pdb
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\TaylorBennett.FrontEnd.csproj.CopyComplete
+C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\bin\Debug\netcoreapp2.2\TaylorBennettDTO.dll
+C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\bin\Debug\netcoreapp2.2\TaylorBennettDTO.pdb
