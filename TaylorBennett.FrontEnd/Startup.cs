@@ -37,7 +37,23 @@ namespace TaylorBennett.FrontEnd
                 client.BaseAddress = new Uri(Configuration["serviceUrl"]);
             });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Admin", policy =>
+                {
+                    policy.RequireAuthenticatedUser()
+                          .RequireIsAdminClaim();
+                });
+            });
+
+            services.AddMvc()
+                .AddRazorPagesOptions(opt =>
+                {
+                    opt.Conventions.AuthorizeFolder("/Admin", "Admin");
+                })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddSingleton<IAdminService, AdminService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +73,8 @@ namespace TaylorBennett.FrontEnd
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
+            app.UseAuthentication();
 
             app.UseMvc();
         }

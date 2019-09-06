@@ -12,6 +12,14 @@
     </p>
 </div>
 
+        @if (Model.ShowMessage)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>   </button>
+        @Model.Message
+    </div>
+}
+
 
 <div class="row justify-content-center">
 @foreach (var blogpost in Model.BlogPosts.Reverse())
@@ -30,6 +38,12 @@
                      <li class="list-inline-item">
                          <a>@blogpost.BlogPostDate.Date.ToString("dd MMM yyyy")</a>
                      </li>
+                      @if (Model.IsAdmin)
+                        {
+                        <li class="list-inline-item">
+                        <a asp-page="/Admin/EditBlogPost" asp-route-id="@blogpost.ID" class="btn btn-default btn-xs">Edit</a>
+                        </li>
+                 }
                  </ul>
              </div>
          </div>

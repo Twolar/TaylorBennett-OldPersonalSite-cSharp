@@ -9,6 +9,9 @@ namespace TaylorBennett.FrontEnd.Pages
 {
     public class IndexModel : PageModel
     {
+        [TempData]
+        public string Message { get; set; }
+        public bool ShowMessage => !string.IsNullOrEmpty(Message);
         public void OnGet()
         {
 
