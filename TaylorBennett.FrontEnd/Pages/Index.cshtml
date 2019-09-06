@@ -4,18 +4,18 @@
     ViewData["Title"] = "Home page";
 }
 
-
-    <div class="text-center">
-        <br>
-        <img src="Assets/Taylor_CV_Photo_Circle.png" alt="Taylor Bennett" style="width: 20%; height: 20%" />
-        <h1 class="display-3">Welcome<br></h1>
         @if (Model.ShowMessage)
 {
-    <div class="alert alert-success alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>   </button>
-        @Model.Message
-    </div>
+<div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>   </button>
+    @Model.Message
+</div>
 }
+
+<div class="text-center">
+    <br>
+    <img src="Assets/Taylor_CV_Photo_Circle.png" alt="Taylor Bennett" style="width: 20%; height: 20%" />
+    <h1 class="display-3">Welcome<br></h1>
 
     <p>
         My name is <strong>Taylor Bennett</strong> and I am 24 year old who is currently based on the North Shore of Auckland, New Zealand.
@@ -65,4 +65,4 @@
         <br>I believe I can bring an interesting combination to the table with the knowledge/experience I already have, but also the knowledge
         I seek to learn, in relation to the technical side of software/web development, but also in the human & business side of things.
     </p>
-    </div>
+</div>
