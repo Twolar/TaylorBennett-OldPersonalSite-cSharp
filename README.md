@@ -1,6 +1,6 @@
 # Personal Website for Taylor Bennett
 
-Built using:
+### Built using:
 - ASP.NETCORE
 - SQLITE
 - RAZOR PAGES
