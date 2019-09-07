@@ -1,2 +1,1 @@
-# TaylorBennett
- 
+# Personal Website for Taylor Bennett
