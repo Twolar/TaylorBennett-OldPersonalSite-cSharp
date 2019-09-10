@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using TaylorBennettDTO;
 
@@ -58,6 +59,21 @@ namespace TaylorBennett.FrontEnd.Services
             }
 
             response.EnsureSuccessStatusCode();
+        }
+
+        public async Task<List<GitHubRepoResponse>> GetGitHubRepos()
+        {
+            _httpClient.DefaultRequestHeaders.Accept.Clear();
+            _httpClient.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+            _httpClient.DefaultRequestHeaders.Add("User-Agent", "Taylor Bennett");
+
+
+            var response = await _httpClient.GetAsync("https://api.github.com/users/twolar/repos");
+
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsAsync<List<GitHubRepoResponse>>();
         }
     }
 }
