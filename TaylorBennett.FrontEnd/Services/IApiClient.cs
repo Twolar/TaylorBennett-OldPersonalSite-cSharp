@@ -10,6 +10,7 @@ namespace TaylorBennett.FrontEnd.Services
     public interface IApiClient
     {
         Task<List<BlogPostResponse>> GetBlogPosts();
+        Task PostBlogPost(BlogPost blogpost);
         Task<BlogPost> GetBlogPost(int id);
         Task PutBlogPost(BlogPost blogpost);
         Task DeleteBlogPost(int id);

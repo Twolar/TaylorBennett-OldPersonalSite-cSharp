@@ -28,6 +28,13 @@ namespace TaylorBennett.FrontEnd.Services
             return await response.Content.ReadAsAsync<List<BlogPostResponse>>();
         }
 
+        public async Task PostBlogPost(BlogPost blogpost)
+        {
+            var response = await _httpClient.PostAsJsonAsync("/api/BlogPosts/", blogpost);
+
+            response.EnsureSuccessStatusCode();
+        }
+
         public async Task<BlogPost> GetBlogPost(int id)
         {
             var response = await _httpClient.GetAsync($"/api/BlogPosts/{id}");

@@ -72,3 +72,4 @@ C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\Razor\Areas\
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\Razor\Pages\Admin\EditBlogPost.g.cshtml.cs
 C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Dev\TaylorBennett\TaylorBennett.FrontEnd\obj\Debug\netcoreapp2.2\Razor\Pages\Admin\NewBlogPost.g.cshtml.cs
