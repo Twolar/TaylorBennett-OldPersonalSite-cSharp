@@ -32,6 +32,7 @@ namespace TaylorBennett.FrontEnd.Pages
             GitHubRepos = githubrepos;
 
             // Get Github repo README.md 's
+            /**
             foreach(var githubrepo in GitHubRepos)
             {
                 GitHubRepoName = githubrepo.name;
@@ -39,7 +40,7 @@ namespace TaylorBennett.FrontEnd.Pages
                 var githubreporeadme = await _apiClient.GetGitHubRepoReadMe(GitHubRepoName);
 
                 githubrepo.ReadMeContent = githubreporeadme;
-            }
+            }**/
         }   
     }
 }
