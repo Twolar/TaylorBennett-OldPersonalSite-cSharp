@@ -15,5 +15,6 @@ namespace TaylorBennett.FrontEnd.Services
         Task PutBlogPost(BlogPost blogpost);
         Task DeleteBlogPost(int id);
         Task<List<GitHubRepoResponse>> GetGitHubRepos();
+        Task<string> GetGitHubRepoReadMe(string githubreponame);
     }
 }

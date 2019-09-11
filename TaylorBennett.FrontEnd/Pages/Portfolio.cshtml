@@ -16,15 +16,15 @@
     {
         <div class= "p-3 text-center">
             <div class="card shadow session h-100">
-                <div class="card-header">
-                    <h5 class="card-title">
-                        <a href="@repo.html_url" target="_blank">@repo.name</a>
-                    </h5>
-                </div>
+                <h5 class="card-header">
+                    <a href="@repo.html_url" target="_blank">@repo.name</a>
+                </h5>
+                <br />
+                    <p>@repo.ReadMeContent</p>
                 <div class="card-footer">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a>Last Updated: @repo.updated_at.ToString("dd MMM yyyy H:mm")</a>
+                            <a>Last Updated: @repo.updated_at.ToString("dd/MM/yyyy")</a>
                         </li>
                         <li class="list-inline-item">
                             <a>Created: @repo.created_at.ToString("dd/MM/yyyy")</a>

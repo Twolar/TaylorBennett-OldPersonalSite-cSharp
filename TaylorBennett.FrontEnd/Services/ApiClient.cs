@@ -82,5 +82,19 @@ namespace TaylorBennett.FrontEnd.Services
 
             return await response.Content.ReadAsAsync<List<GitHubRepoResponse>>();
         }
+
+        public async Task<string> GetGitHubRepoReadMe(string githubreponame)
+        {
+            _httpClient.DefaultRequestHeaders.Accept.Clear();
+            _httpClient.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/octet-stream"));
+            _httpClient.DefaultRequestHeaders.Add("User-Agent", "Taylor Bennett");
+
+            string url = "https://raw.githubusercontent.com/twolar/" + githubreponame + "/master/README.md";
+
+            var response = await _httpClient.GetAsync(url);
+
+            return await response.Content.ReadAsStringAsync();
+        }
     }
 }
