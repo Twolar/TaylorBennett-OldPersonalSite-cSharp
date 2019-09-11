@@ -26,6 +26,8 @@ namespace TaylorBennett.FrontEnd.Pages
 
         public IEnumerable<BlogPost> BlogPosts { get; set; }
 
+        public IEnumerable<BlogPost> SortedBlogPosts { get; set; }
+
         public bool IsAdmin { get; set; }
 
         public async Task OnGet()
@@ -34,7 +36,9 @@ namespace TaylorBennett.FrontEnd.Pages
 
             var blogposts = await _apiClient.GetBlogPosts();
 
-            BlogPosts = blogposts;
+            SortedBlogPosts = blogposts.OrderByDescending(opt => opt.BlogPostDate).ToList();
+
+            BlogPosts = SortedBlogPosts;
         }
     }
 }

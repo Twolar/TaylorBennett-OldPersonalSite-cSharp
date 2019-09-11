@@ -12,17 +12,16 @@
 </div>
 
 <div class="row justify-content-center">
-    @foreach (var repo in Model.GitHubRepos.Reverse())
+    @foreach (var repo in Model.GitHubRepos)
     {
-        <div class= "p-3 text-center">
+        <div class= "w-100 p-3 text-center">
             <div class="card shadow session h-100">
                 <h5 class="card-header">
                     <a href="@repo.html_url" target="_blank">@repo.name</a>
                 </h5>
-                <!--
-                 <br />
-                    <p>@repo.ReadMeContent</p>
-                -->
+                    <div class="card-body">
+                        <pre>@repo.ReadMeContent</pre>
+                    </div>
                 <div class="card-footer">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">

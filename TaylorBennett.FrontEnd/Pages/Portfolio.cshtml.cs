@@ -24,15 +24,20 @@ namespace TaylorBennett.FrontEnd.Pages
 
         public IEnumerable<GitHubRepo> GitHubRepos { get; set; }
 
+        public IEnumerable<GitHubRepo> SortedGitHubRepos { get; set; }
+
         public async Task OnGet()
         {
 
             var githubrepos= await _apiClient.GetGitHubRepos();
 
-            GitHubRepos = githubrepos;
+
+            SortedGitHubRepos = githubrepos.OrderByDescending(opt => opt.updated_at).ToList();
+
+            GitHubRepos = SortedGitHubRepos;
 
             // Get Github repo README.md 's
-            /**
+            
             foreach(var githubrepo in GitHubRepos)
             {
                 GitHubRepoName = githubrepo.name;
@@ -40,7 +45,7 @@ namespace TaylorBennett.FrontEnd.Pages
                 var githubreporeadme = await _apiClient.GetGitHubRepoReadMe(GitHubRepoName);
 
                 githubrepo.ReadMeContent = githubreporeadme;
-            }**/
+            }
         }   
     }
 }

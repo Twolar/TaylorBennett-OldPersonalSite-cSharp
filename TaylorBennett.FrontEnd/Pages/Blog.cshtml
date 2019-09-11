@@ -23,19 +23,21 @@
 <div class="row justify-content-center">
     @if (Model.IsAdmin)
     {
-        <li class="list-inline-item">
+        <li class="list-inline-item p-3">
             <a asp-page="/Admin/NewBlogPost"  asp-route-id="" class="btn btn-secondary btn-block">New Blog Post</a>
         </li>
     }
 </div>
     <div class="row justify-content-center">
-        @foreach (var blogpost in Model.BlogPosts.Reverse())
+        @foreach (var blogpost in Model.BlogPosts)
         {
-            <div class="w-75 p-3">
+            <div class="w-100 p-3">
                 <div class="card shadow session h-100">
                     <h5 class="card-header">@blogpost.BlogPostTitle</h5>
                     <div class="card-body">
-                        <div class="card-title"><a>@blogpost.BlogPostBody</a></div>
+                        <div class="card-title">
+                            <pre>@blogpost.BlogPostBody</pre>
+                        </div>
                     </div>
                     <div class="card-footer">
                         <ul class="list-inline mb-0">
