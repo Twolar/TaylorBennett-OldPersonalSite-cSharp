@@ -6,3 +6,5 @@
 - RAZOR PAGES
 - CSS (BOOTSTRAP)
 - HTML
+
+Portfolio page grabs repo information/link from GitHub endpoint.
