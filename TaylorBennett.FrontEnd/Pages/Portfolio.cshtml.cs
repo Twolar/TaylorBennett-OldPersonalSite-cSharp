@@ -31,21 +31,15 @@ namespace TaylorBennett.FrontEnd.Pages
 
             GitHubRepos = githubrepos;
 
+            // Get Github repo README.md 's
             foreach(var githubrepo in GitHubRepos)
             {
                 GitHubRepoName = githubrepo.name;
 
-                Debug.WriteLine("GitHubRepoName in Portfolio =" + GitHubRepoName);
-
-
                 var githubreporeadme = await _apiClient.GetGitHubRepoReadMe(GitHubRepoName);
 
                 githubrepo.ReadMeContent = githubreporeadme;
-
-
             }
-        }
-
-        
+        }   
     }
 }

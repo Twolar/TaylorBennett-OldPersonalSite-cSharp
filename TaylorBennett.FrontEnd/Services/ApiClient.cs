@@ -7,6 +7,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using TaylorBennettDTO;
+using System.IO;
+using System.Text;
 
 namespace TaylorBennett.FrontEnd.Services
 {
