@@ -27,7 +27,7 @@ namespace TaylorBennett.FrontEnd.Pages.Admin
 
         DateTime DateTimeNow = DateTime.Now;
 
-        public async Task OnGetAsync(int id)
+        public void OnGet(int id)
         {
             BlogPost = new BlogPost
             {

@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj": {}
+    "C:\\dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj": {
+    "C:\\dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj",
+        "projectUniqueName": "C:\\dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj",
         "projectName": "TaylorBennett.BackService",
-        "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj",
-        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\TaylorBennett\\TaylorBennett.BackService\\obj\\",
+        "projectPath": "C:\\dev\\TaylorBennett\\TaylorBennett.BackService\\TaylorBennett.BackService.csproj",
+        "packagesPath": "C:\\Users\\t4ybe\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\TaylorBennett\\TaylorBennett.BackService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\t4ybe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
-                "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj"
+              "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
+                "projectPath": "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj"
               }
             }
           }
@@ -91,21 +93,23 @@
         }
       }
     },
-    "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
+    "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj",
+        "projectUniqueName": "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj",
         "projectName": "TaylorBennettDTO",
-        "projectPath": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj",
-        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\TaylorBennett\\TaylorBennettDTO\\obj\\",
+        "projectPath": "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\TaylorBennettDTO.csproj",
+        "packagesPath": "C:\\Users\\t4ybe\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\TaylorBennett\\TaylorBennettDTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\t4ybe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

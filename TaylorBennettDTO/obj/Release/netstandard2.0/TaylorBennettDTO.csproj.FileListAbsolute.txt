@@ -1,0 +1,9 @@
+C:\dev\TaylorBennett\TaylorBennettDTO\bin\Release\netstandard2.0\TaylorBennettDTO.deps.json
+C:\dev\TaylorBennett\TaylorBennettDTO\bin\Release\netstandard2.0\TaylorBennettDTO.dll
+C:\dev\TaylorBennett\TaylorBennettDTO\bin\Release\netstandard2.0\TaylorBennettDTO.pdb
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.csprojAssemblyReference.cache
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.csproj.CoreCompileInputs.cache
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.AssemblyInfoInputs.cache
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.AssemblyInfo.cs
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.dll
+C:\dev\TaylorBennett\TaylorBennettDTO\obj\Release\netstandard2.0\TaylorBennettDTO.pdb
